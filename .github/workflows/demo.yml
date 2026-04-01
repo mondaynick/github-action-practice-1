@@ -8,4 +8,4 @@ jobs:
 
     steps:
       - name: show repository URL
-        uses: echo ${{ github.repositoryURL }}
+        run: echo ${{ github.repositoryUrl }}
