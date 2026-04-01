@@ -1,6 +1,10 @@
 name: multiple event triggers
 
-on: [push, workflow_dispatch]
+on:
+  push:
+    branches:
+      - master
+  workflow-dispatch:
 
 jobs:
   build-on-linux:
